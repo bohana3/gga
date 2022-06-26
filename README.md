@@ -5,13 +5,13 @@
 * Dependencies: https://research.swtch.com/deps#debugging
 
 * Printf format\
-%d de cimal integer\
-%x, %o, %b integer in hexade cimal, octal, binar y\
+%d decimal integer\
+%x, %o, %b integer in hexadecimal, octal, binary\
 %f, %g, %e floating-p oint number: 3.141593 3.141592653589793 3.141593e+00\
-%t boole an: true or false\
-%c rune (Unico de co de point)\
-%s st ring\
-%q quot ed str ing "abc" or rune 'c'\
+%t boolean: true or false\
+%c rune (Unicode code point)\
+%s string\
+%q quoted string "abc" or rune 'c'\
 %v any value in a natural for mat\
 %T type of any value\
-%% literal percent sig n (no operand)\
+%% literal percent sign (no operand)\
